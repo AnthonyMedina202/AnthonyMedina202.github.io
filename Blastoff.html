@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Blastoff</title>
+    <script>
+        function StartTheCountdown()
+           { 
+            var countdown = 10;
+            var timeout = 10000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = "Blast OFF!";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            setTimeout(() => {
+                document.getElementById("countdowndisplay").innerHTML = countdown;
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+          }
+    </script>
+</head>
+<body>
+    <h1>Blastoff</h1>
+
+    <p>This will be the launching sequence</p>
+    <h2>Countdown</h2><button type="button" onclick="StartTheCountdown()">Start Countdown</button>
+    <p id="countdowndisplay">10</p>
+</body>
+</html>
